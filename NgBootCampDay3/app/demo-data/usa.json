@@ -1,0 +1,99 @@
+{
+  "name": "United States of America",
+  "code": "US",
+  "anthem": "The Star-Spangled Banner",
+  "capital": "Washington, D.C.",
+  "largest_city": "New York City",
+  "national_language": "English",
+  "ethnic_groups": [
+    {
+      "pct": 62.1,
+      "ethnicity": "White"
+    },
+    {
+      "pct": 13.2,
+      "ethnicity": "Black"
+    },
+    {
+      "pct": 5.4,
+      "ethnicity": "Asian"
+    },
+    {
+      "pct": 1.4,
+      "ethnicity": "Native"
+    },
+    {
+      "pct": 2.5,
+      "ethnicity": "Other/Multiracial"
+    },
+    {
+      "pct": 17.4,
+      "ethnicity": "Hispanic/Latino"
+    }
+  ],
+  "government_officials": [
+    {
+      "title": "President",
+      "name": "Barack Obama"
+    },
+    {
+      "title": "Vice President",
+      "name": "Joe Biden"
+    },
+    {
+      "title": "Speaker of the House",
+      "name": "Paul Ryan"
+    },
+    {
+      "title": "Chief Justice",
+      "name": "John Roberts"
+    }
+  ],
+  "legislature": {
+    "congress": {
+      "upper_house": "Senate",
+      "lower_house": "House of Representatives"
+    }
+  },
+  "documents": [
+    {
+      "name": "Declaration of Independence",
+      "date": "1776-07-04"
+    },
+    {
+      "name": "Articles of Confederation",
+      "date": "1781-03-01"
+    },
+    {
+      "name": "Treaty of Paris",
+      "date": "1783-09-03"
+    },
+    {
+      "name": "Constitution",
+      "date": "1788-06-21"
+    }
+  ],
+  "area_sq_mi": 3805927,
+  "population": {
+    "2015_estimate": 322014853,
+    "2010_census": 309349689,
+    "density_sq_mi": 90.6
+  },
+  "gdp": {
+    "total": 17419000000000,
+    "per_capita": 54629
+  },
+  "currency": {
+    "description": "United States dollar",
+    "code": "USD"
+  },
+  "time_zone": "(UTC−4 to −12, +10, +11)",
+  "date_format": "MM/DD/YYYY",
+  "calling_code": "+1",
+  "internet_tld": [
+    ".us",
+    ".gov",
+    ".mil",
+    ".edu"
+  ]
+}

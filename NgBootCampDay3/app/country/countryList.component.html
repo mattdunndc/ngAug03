@@ -1,0 +1,12 @@
+﻿<div>
+    <div class="well">
+        Country Name Search:
+        <input type="text" ng-model="$ctrl.nameInput" />
+        <div class="btn btn-success" ng-click="$ctrl.submitSearch()">Submit</div>
+    </div>
+    <div ng-class="{ lead: country.areaInSqKm > 100000 }"
+         ng-repeat="country in $ctrl.countryList | filter: $ctrl.countrySearch">
+        <country-item country-data="country"></country-item>
+    </div>
+</div>
+

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "triangle",
+    "sides": 3
+  },
+  {
+    "name": "Square",
+    "sides": 4
+  },
+  {
+    "name": "Pentagon",
+    "sides": 5
+  }
+]

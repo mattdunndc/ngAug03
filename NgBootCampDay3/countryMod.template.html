@@ -1,0 +1,25 @@
+﻿<h1>Countries</h1>
+<!--without controller as
+    angular.module('apiExamples', ['apiServices'])
+        .component('apiExamples',
+        {
+            templateUrl: 'apiExamples.template.html',
+            controller: ApiExampleController,
+            controllerAs: 'vm'
+        })
+
+<p>URL: {{$ctrl.url}}</p>
+<p>Number: {{$ctrl.n}}</p>
+<p>Factory: {{$ctrl.greetingB}}</p>
+<p>Service: {{$ctrl.greetingA}}</p>
+<p>Service: {{$ctrl.greetingC}}</p>
+-->
+<p>URL: {{vm.url}}</p>
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2" ng-repeat="c in vm.countries">
+           <div>{{ c.countryName }}</div>
+        </div>
+    </div>
+</div>

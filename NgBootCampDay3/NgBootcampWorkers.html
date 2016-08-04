@@ -1,0 +1,27 @@
+﻿<!doctype html>
+<html lang="en" ng-app="testApp">
+<head>
+    <link rel="shortcut icon" href="">
+    <meta charset="utf-8">
+    <title>Modules Example</title>
+    <script src="scripts/angular.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet"/>
+    <link href="Content/app.css" rel="stylesheet"/>
+    <!-- What if we change the order of the files? -->
+    <script src="app/appV2.js"></script>
+    <script src="app/workersMod.js"></script>
+    <script src="app/services/workers.service.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <p><a href="https://docs.angularjs.org/guide/services">Service docs</a></p>
+        <div class="row">
+            <div class="col-md-8 col-push-md-2">
+                <hr>
+                <workers-mod></workers-mod>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

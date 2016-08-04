@@ -1,0 +1,30 @@
+﻿<h1>Workers</h1>
+<!--without controller as
+    angular.module('apiExamples', ['apiServices'])
+        .component('apiExamples',
+        {
+            templateUrl: 'apiExamples.template.html',
+            controller: ApiExampleController,
+            controllerAs: 'vm'
+        })
+
+<p>URL: {{$ctrl.url}}</p>
+<p>Number: {{$ctrl.n}}</p>
+<p>Factory: {{$ctrl.greetingB}}</p>
+<p>Service: {{$ctrl.greetingA}}</p>
+<p>Service: {{$ctrl.greetingC}}</p>
+-->
+<p>URL: {{vm.url}}</p>
+<br/>
+<div class="container">
+    <div class="well">
+        Search: <input type="text" ng-model="vm.workersSearch.last_name"/>
+        <div ng-click="vm.submitSearch()">Submit</div>
+    </div>
+    
+        <div ng-repeat="c in vm.workers | filter: vm.workersSearch">
+            <div>{{ c.first_name }}</div>
+            <div>{{ c.last_name | addText }}</div>
+        </div>
+    
+</div>

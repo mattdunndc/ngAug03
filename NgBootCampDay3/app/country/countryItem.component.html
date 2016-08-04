@@ -1,0 +1,9 @@
+﻿<div>
+    {{ cic.country.countryName }}
+</div>
+<img ng-src="demo-data/flags/{{ cic.country.countryCode | lowercase }}.png"
+     width="200px">
+<div ng-if="cic.country.areaInSqKm > 100000">
+    {{ cic.country.areaInSqKm }}
+</div>
+
